@@ -57,6 +57,10 @@
       "templates/index.html",
       "app/routes.py",
       "static/styles.css"
+    ],
+    "frontend_expert": [
+      "static/scripts.js",
+      "templates/admin.html"
     ]
   }
 }

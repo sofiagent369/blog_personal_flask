@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h2 class="page-title">Administrar Posts</h2>
+    
+    <!-- Formulario de creación de posts -->
+    <form id="create-post-form">
+        <h3>Crear Post</h3>
+        <label for="title">Título:</label>
+        <input type="text" id="title" name="title" required>
+        
+        <label for="content">Contenido:</label>
+        <textarea id="content" name="content" required></textarea>
+        
+        <button type="submit">Crear Post</button>
+    </form>
+
+    <!-- Formulario de edición de posts -->
+    {% for post in posts %}
+        <form class="edit-post-form" data-post-id="{{ post.id }}">
+            <h3>Editar Post: {{ post.title }}</h3>
+            
+            <label for="title-{{ post.id }}">Título:</label>
+            <input type="text" id="title-{{ post.id }}" name="title" value="{{ post.title }}" required>
+            
+            <label for="content-{{ post.id }}">Contenido:</label>
+            <textarea id="content-{{ post.id }}" name="content">{{ post.content }}</textarea>
+            
+            <button type="submit">Actualizar Post</button>
+        </form>
+    {% endfor %}
+{% endblock %}

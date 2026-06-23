@@ -29,3 +29,9 @@
 [2026-06-24 00:39:33] [IN_PROGRESS] task_007: Diseñar página principal del blog
 [2026-06-24 00:46:01] [PENDING] task_007: Diseñar página principal del blog
 [2026-06-24 00:46:01] [IN_PROGRESS] task_007: Diseñar página principal del blog
+[2026-06-24 00:52:48] [COMPLETED] task_007: Diseñar página principal del blog
+[2026-06-24 00:52:51] [IN_PROGRESS] task_008: Diseñar página de detalle del post
+[2026-06-24 00:58:14] [COMPLETED] task_008: Diseñar página de detalle del post
+[2026-06-24 00:58:16] [IN_PROGRESS] task_009: Diseñar página de admin para gestión de posts
+[2026-06-24 01:06:18] [COMPLETED] task_009: Diseñar página de admin para gestión de posts
+[2026-06-24 01:06:21] [IN_PROGRESS] task_010: Implementar AJAX para interacciones frontend

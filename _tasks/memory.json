@@ -23,6 +23,18 @@
     {
       "content": "Agente 🎨 Experto UI/UX completó: Crear plantilla base Jinja2. Archivos: templates/base.html, static/styles.css, static/scripts.js",
       "timestamp": "2026-06-24T00:38:53.803594"
+    },
+    {
+      "content": "Agente 🎨 Experto UI/UX completó: Diseñar página principal del blog. Archivos: templates/index.html, app/routes.py, static/styles.css",
+      "timestamp": "2026-06-24T00:52:48.064291"
+    },
+    {
+      "content": "Agente 🎨 Experto UI/UX completó: Diseñar página de detalle del post. Archivos: ninguno",
+      "timestamp": "2026-06-24T00:58:14.503192"
+    },
+    {
+      "content": "Agente 🎨 Experto UI/UX completó: Diseñar página de admin para gestión de posts. Archivos: ninguno",
+      "timestamp": "2026-06-24T01:06:18.520888"
     }
   ],
   "decisions": [],

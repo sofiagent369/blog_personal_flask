@@ -1,0 +1,11 @@
+{
+  "context": [],
+  "decisions": [],
+  "file_map": {
+    "backend_expert": [
+      "main.py",
+      "config.py",
+      ".env.example"
+    ]
+  }
+}

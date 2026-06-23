@@ -1,0 +1,225 @@
+{
+  "tasks": [
+    {
+      "id": "task_001",
+      "title": "Crear estructura de proyecto",
+      "description": "Crear la estructura básica del proyecto con carpetas: app, static, templates, migrations. Incluir main.py y config.py.",
+      "assigned_to": "backend_expert",
+      "status": "in_progress",
+      "priority": 1,
+      "dependencies": [],
+      "output_files": [],
+      "output_summary": "",
+      "created_at": "2026-06-24T00:14:25.614894",
+      "started_at": "2026-06-24T00:15:06.010940",
+      "completed_at": null
+    },
+    {
+      "id": "task_002",
+      "title": "Configurar entorno virtual y requirements.txt",
+      "description": "Crear un entorno virtual y generar el archivo requirements.txt con Flask, SQLAlchemy, SQLite, Jinja2.",
+      "assigned_to": "backend_expert",
+      "status": "pending",
+      "priority": 2,
+      "dependencies": [
+        "task_001"
+      ],
+      "output_files": [],
+      "output_summary": "",
+      "created_at": "2026-06-24T00:14:25.623360",
+      "started_at": null,
+      "completed_at": null
+    },
+    {
+      "id": "task_003",
+      "title": "Configurar base de datos SQLite con SQLAlchemy",
+      "description": "Crear el archivo models.py con la definición de modelos para posts y usuarios. Configurar la base de datos en config.py.",
+      "assigned_to": "backend_expert",
+      "status": "pending",
+      "priority": 2,
+      "dependencies": [
+        "task_001"
+      ],
+      "output_files": [],
+      "output_summary": "",
+      "created_at": "2026-06-24T00:14:25.634502",
+      "started_at": null,
+      "completed_at": null
+    },
+    {
+      "id": "task_004",
+      "title": "Implementar rutas REST API",
+      "description": "Crear archivo routes.py con rutas para listar, crear, actualizar y eliminar posts.",
+      "assigned_to": "backend_expert",
+      "status": "pending",
+      "priority": 2,
+      "dependencies": [
+        "task_003"
+      ],
+      "output_files": [],
+      "output_summary": "",
+      "created_at": "2026-06-24T00:14:25.640605",
+      "started_at": null,
+      "completed_at": null
+    },
+    {
+      "id": "task_005",
+      "title": "Implementar autenticación de usuarios",
+      "description": "Crear archivo auth.py con rutas para registrar, iniciar sesión y cerrar sesión de usuarios. Usar sesiones Flask.",
+      "assigned_to": "backend_expert",
+      "status": "pending",
+      "priority": 2,
+      "dependencies": [
+        "task_001"
+      ],
+      "output_files": [],
+      "output_summary": "",
+      "created_at": "2026-06-24T00:14:25.646921",
+      "started_at": null,
+      "completed_at": null
+    },
+    {
+      "id": "task_006",
+      "title": "Crear plantilla base Jinja2",
+      "description": "Crear archivo base.html en templates con el diseño general y la barra de navegación.",
+      "assigned_to": "ui_expert",
+      "status": "pending",
+      "priority": 3,
+      "dependencies": [
+        "task_001"
+      ],
+      "output_files": [],
+      "output_summary": "",
+      "created_at": "2026-06-24T00:14:25.660351",
+      "started_at": null,
+      "completed_at": null
+    },
+    {
+      "id": "task_007",
+      "title": "Diseñar página principal del blog",
+      "description": "Crear archivo index.html en templates con la lista de posts y diseño moderno.",
+      "assigned_to": "ui_expert",
+      "status": "pending",
+      "priority": 3,
+      "dependencies": [
+        "task_006"
+      ],
+      "output_files": [],
+      "output_summary": "",
+      "created_at": "2026-06-24T00:14:25.668843",
+      "started_at": null,
+      "completed_at": null
+    },
+    {
+      "id": "task_008",
+      "title": "Diseñar página de detalle del post",
+      "description": "Crear archivo post_detail.html en templates con el contenido completo del post y diseño moderno.",
+      "assigned_to": "ui_expert",
+      "status": "pending",
+      "priority": 3,
+      "dependencies": [
+        "task_006"
+      ],
+      "output_files": [],
+      "output_summary": "",
+      "created_at": "2026-06-24T00:14:25.679268",
+      "started_at": null,
+      "completed_at": null
+    },
+    {
+      "id": "task_009",
+      "title": "Diseñar página de admin para gestión de posts",
+      "description": "Crear archivo admin.html en templates con formulario para crear y editar posts, diseño moderno.",
+      "assigned_to": "ui_expert",
+      "status": "pending",
+      "priority": 3,
+      "dependencies": [
+        "task_006"
+      ],
+      "output_files": [],
+      "output_summary": "",
+      "created_at": "2026-06-24T00:14:25.689156",
+      "started_at": null,
+      "completed_at": null
+    },
+    {
+      "id": "task_010",
+      "title": "Implementar AJAX para interacciones frontend",
+      "description": "Agregar scripts.js con AJAX para cargar posts y formularios de admin sin recargar la página.",
+      "assigned_to": "frontend_expert",
+      "status": "pending",
+      "priority": 3,
+      "dependencies": [
+        "task_006",
+        "task_007",
+        "task_008"
+      ],
+      "output_files": [],
+      "output_summary": "",
+      "created_at": "2026-06-24T00:14:25.699420",
+      "started_at": null,
+      "completed_at": null
+    },
+    {
+      "id": "task_011",
+      "title": "Hacer diseño responsive",
+      "description": "Añadir estilos CSS para que el blog sea responsivo en dispositivos móviles y tablets.",
+      "assigned_to": "ui_expert",
+      "status": "pending",
+      "priority": 3,
+      "dependencies": [
+        "task_006",
+        "task_007",
+        "task_008"
+      ],
+      "output_files": [],
+      "output_summary": "",
+      "created_at": "2026-06-24T00:14:25.710124",
+      "started_at": null,
+      "completed_at": null
+    },
+    {
+      "id": "task_012",
+      "title": "Crear README.md",
+      "description": "Generar archivo README.md con descripción del proyecto, instalación y uso.",
+      "assigned_to": "writer_agent",
+      "status": "pending",
+      "priority": 4,
+      "dependencies": [
+        "task_001",
+        "task_002",
+        "task_003",
+        "task_004",
+        "task_005",
+        "task_006",
+        "task_007",
+        "task_008",
+        "task_009",
+        "task_010",
+        "task_011"
+      ],
+      "output_files": [],
+      "output_summary": "",
+      "created_at": "2026-06-24T00:14:25.722859",
+      "started_at": null,
+      "completed_at": null
+    },
+    {
+      "id": "task_013",
+      "title": "Crear archivo .env.example",
+      "description": "Generar archivo .env.example con las variables de entorno necesarias para la configuración del proyecto.",
+      "assigned_to": "backend_expert",
+      "status": "pending",
+      "priority": 4,
+      "dependencies": [
+        "task_001"
+      ],
+      "output_files": [],
+      "output_summary": "",
+      "created_at": "2026-06-24T00:14:25.734506",
+      "started_at": null,
+      "completed_at": null
+    }
+  ],
+  "updated_at": "2026-06-24T00:15:06.010940"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "blog_personal_flask",
+  "display_name": "blog_personal_flask",
+  "description": "Aplicación web completa de blog personal con panel admin usando Python Flask, SQLAlchemy y SQLite.",
+  "tech_stack": [
+    "Python",
+    "Flask",
+    "SQLAlchemy",
+    "SQLite",
+    "Jinja2",
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+  "created_at": "2026-06-24T00:14:25.605931",
+  "created_by": "Bot_Ant Multi-Agent System",
+  "version": "1.0.0",
+  "status": "in_development",
+  "portable": true,
+  "notes": "Este proyecto es portable. Puedes mover la carpeta completa a otro equipo."
+}

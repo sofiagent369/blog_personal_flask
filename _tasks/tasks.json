@@ -5,37 +5,41 @@
       "title": "Crear estructura de proyecto",
       "description": "Crear la estructura básica del proyecto con carpetas: app, static, templates, migrations. Incluir main.py y config.py.",
       "assigned_to": "backend_expert",
-      "status": "in_progress",
+      "status": "completed",
       "priority": 1,
       "dependencies": [],
-      "output_files": [],
-      "output_summary": "",
+      "output_files": [
+        "main.py",
+        "config.py",
+        ".env.example"
+      ],
+      "output_summary": "Para crear la estructura básica del proyecto \"blog_personal_flask\" con las carpetas especificadas y los archivos principales, he organizado el proyecto de la siguiente manera:\n\n- `app/`: Contendrá los controladores y lógica de negocio.\n- `static/`: Contendrá archivos estáticos como CSS, JavaScript y | Archivos: main.py, config.py, .env.example",
       "created_at": "2026-06-24T00:14:25.614894",
       "started_at": "2026-06-24T00:15:06.010940",
-      "completed_at": null
+      "completed_at": "2026-06-24T00:16:47.390238"
     },
     {
       "id": "task_002",
       "title": "Configurar entorno virtual y requirements.txt",
       "description": "Crear un entorno virtual y generar el archivo requirements.txt con Flask, SQLAlchemy, SQLite, Jinja2.",
       "assigned_to": "backend_expert",
-      "status": "pending",
+      "status": "completed",
       "priority": 2,
       "dependencies": [
         "task_001"
       ],
       "output_files": [],
-      "output_summary": "",
+      "output_summary": "Para configurar el entorno virtual y generar el archivo `requirements.txt`, sigue estos pasos:\n\n1. **Crear un entorno virtual**: Esto se hará utilizando la herramienta `venv` que viene incluida con Python.\n2. **Activar el entorno virtual**.\n3. **Instalar las dependencias necesarias** (Flask, SQLAlch",
       "created_at": "2026-06-24T00:14:25.623360",
-      "started_at": null,
-      "completed_at": null
+      "started_at": "2026-06-24T00:16:49.953900",
+      "completed_at": "2026-06-24T00:21:45.564812"
     },
     {
       "id": "task_003",
       "title": "Configurar base de datos SQLite con SQLAlchemy",
       "description": "Crear el archivo models.py con la definición de modelos para posts y usuarios. Configurar la base de datos en config.py.",
       "assigned_to": "backend_expert",
-      "status": "pending",
+      "status": "in_progress",
       "priority": 2,
       "dependencies": [
         "task_001"
@@ -43,7 +47,7 @@
       "output_files": [],
       "output_summary": "",
       "created_at": "2026-06-24T00:14:25.634502",
-      "started_at": null,
+      "started_at": "2026-06-24T00:21:48.258656",
       "completed_at": null
     },
     {
@@ -221,5 +225,5 @@
       "completed_at": null
     }
   ],
-  "updated_at": "2026-06-24T00:15:06.010940"
+  "updated_at": "2026-06-24T00:21:48.597689"
 }

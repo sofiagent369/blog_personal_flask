@@ -58,23 +58,26 @@
       "title": "Implementar rutas REST API",
       "description": "Crear archivo routes.py con rutas para listar, crear, actualizar y eliminar posts.",
       "assigned_to": "backend_expert",
-      "status": "in_progress",
+      "status": "completed",
       "priority": 2,
       "dependencies": [
         "task_003"
       ],
-      "output_files": [],
-      "output_summary": "",
+      "output_files": [
+        "app/routes.py",
+        "main.py"
+      ],
+      "output_summary": "Para implementar las rutas REST API para listar, crear, actualizar y eliminar posts, vamos a crear un archivo `routes.py` dentro de la carpeta `app/`. Este archivo contendrá todas las rutas relacionadas con los posts.\n\n### Explicación:\n1. **Rutas Listar Posts**: `/posts`: Obtener una lista de todos  | Archivos: app/routes.py, main.py",
       "created_at": "2026-06-24T00:14:25.640605",
       "started_at": "2026-06-24T00:26:35.947193",
-      "completed_at": null
+      "completed_at": "2026-06-24T00:29:46.540262"
     },
     {
       "id": "task_005",
       "title": "Implementar autenticación de usuarios",
       "description": "Crear archivo auth.py con rutas para registrar, iniciar sesión y cerrar sesión de usuarios. Usar sesiones Flask.",
       "assigned_to": "backend_expert",
-      "status": "pending",
+      "status": "in_progress",
       "priority": 2,
       "dependencies": [
         "task_001"
@@ -82,7 +85,7 @@
       "output_files": [],
       "output_summary": "",
       "created_at": "2026-06-24T00:14:25.646921",
-      "started_at": null,
+      "started_at": "2026-06-24T00:29:49.422845",
       "completed_at": null
     },
     {
@@ -228,5 +231,5 @@
       "completed_at": null
     }
   ],
-  "updated_at": "2026-06-24T00:26:35.947193"
+  "updated_at": "2026-06-24T00:29:49.422845"
 }

@@ -25,3 +25,7 @@
 [2026-06-24 00:32:57] [IN_PROGRESS] task_006: Crear plantilla base Jinja2
 [2026-06-24 00:33:31] [PENDING] task_006: Crear plantilla base Jinja2
 [2026-06-24 00:33:32] [IN_PROGRESS] task_006: Crear plantilla base Jinja2
+[2026-06-24 00:38:53] [COMPLETED] task_006: Crear plantilla base Jinja2
+[2026-06-24 00:39:33] [IN_PROGRESS] task_007: Diseñar página principal del blog
+[2026-06-24 00:46:01] [PENDING] task_007: Diseñar página principal del blog
+[2026-06-24 00:46:01] [IN_PROGRESS] task_007: Diseñar página principal del blog

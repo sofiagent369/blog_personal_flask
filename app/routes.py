@@ -1,4 +1,4 @@
-from flask import Blueprint, request, jsonify
+from flask import Blueprint, request, jsonify, render_template
 from app.models import db, Post
 
 # Crear un Blueprint para las rutas de posts
@@ -46,5 +46,14 @@ def delete_post(post_id):
         db.session.delete(post)
         db.session.commit()
         return jsonify({'message': 'Post deleted successfully'}), 200
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+# Ruta para la página principal que muestra los posts
+@post_bp.route('/', methods=['GET'])
+def index():
+    try:
+        posts = Post.query.all()
+        return render_template('index.html', posts=posts)
     except Exception as e:
         return jsonify({'error': str(e)}), 500

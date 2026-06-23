@@ -19,6 +19,10 @@
     {
       "content": "Agente ⚙️ Experto Backend completó: Implementar autenticación de usuarios. Archivos: app/auth.py, main.py",
       "timestamp": "2026-06-24T00:32:54.792786"
+    },
+    {
+      "content": "Agente 🎨 Experto UI/UX completó: Crear plantilla base Jinja2. Archivos: templates/base.html, static/styles.css, static/scripts.js",
+      "timestamp": "2026-06-24T00:38:53.803594"
     }
   ],
   "decisions": [],
@@ -37,7 +41,10 @@
     "ui_expert": [
       "templates/base.html",
       "static/styles.css",
-      "static/scripts.js"
+      "static/scripts.js",
+      "templates/index.html",
+      "app/routes.py",
+      "static/styles.css"
     ]
   }
 }

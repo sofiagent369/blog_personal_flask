@@ -17,3 +17,5 @@
 [2026-06-24 00:16:49] [IN_PROGRESS] task_002: Configurar entorno virtual y requirements.txt
 [2026-06-24 00:21:45] [COMPLETED] task_002: Configurar entorno virtual y requirements.txt
 [2026-06-24 00:21:48] [IN_PROGRESS] task_003: Configurar base de datos SQLite con SQLAlchemy
+[2026-06-24 00:26:33] [COMPLETED] task_003: Configurar base de datos SQLite con SQLAlchemy
+[2026-06-24 00:26:35] [IN_PROGRESS] task_004: Implementar rutas REST API

@@ -7,6 +7,10 @@
     {
       "content": "Agente ⚙️ Experto Backend completó: Configurar entorno virtual y requirements.txt. Archivos: ninguno",
       "timestamp": "2026-06-24T00:21:45.565324"
+    },
+    {
+      "content": "Agente ⚙️ Experto Backend completó: Configurar base de datos SQLite con SQLAlchemy. Archivos: app/models.py, config.py",
+      "timestamp": "2026-06-24T00:26:33.750300"
     }
   ],
   "decisions": [],
@@ -16,7 +20,9 @@
       "config.py",
       ".env.example",
       "app/models.py",
-      "config.py"
+      "config.py",
+      "app/routes.py",
+      "main.py"
     ]
   }
 }

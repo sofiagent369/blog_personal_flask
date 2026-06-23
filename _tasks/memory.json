@@ -15,6 +15,10 @@
     {
       "content": "Agente ⚙️ Experto Backend completó: Implementar rutas REST API. Archivos: app/routes.py, main.py",
       "timestamp": "2026-06-24T00:29:46.550458"
+    },
+    {
+      "content": "Agente ⚙️ Experto Backend completó: Implementar autenticación de usuarios. Archivos: app/auth.py, main.py",
+      "timestamp": "2026-06-24T00:32:54.792786"
     }
   ],
   "decisions": [],
@@ -29,6 +33,11 @@
       "main.py",
       "app/auth.py",
       "main.py"
+    ],
+    "ui_expert": [
+      "templates/base.html",
+      "static/styles.css",
+      "static/scripts.js"
     ]
   }
 }

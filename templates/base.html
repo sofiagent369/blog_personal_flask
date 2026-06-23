@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Blog Personal{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body class="theme-dark">
+    <header class="navbar">
+        <div class="container">
+            <a href="{{ url_for('index') }}" class="navbar-brand">Blog Personal</a>
+            <nav class="navbar-nav">
+                <ul>
+                    <li><a href="{{ url_for('index') }}">Inicio</a></li>
+                    <li><a href="{{ url_for('posts.get_posts') }}">Posts</a></li>
+                    {% if 'user_id' in session %}
+                        <li><a href="{{ url_for('auth.logout') }}">Cerrar sesión</a></li>
+                    {% else %}
+                        <li><a href="{{ url_for('auth.login') }}">Iniciar sesión</a></li>
+                        <li><a href="{{ url_for('auth.register') }}">Registrarse</a></li>
+                    {% endif %}
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 Blog Personal. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="{{ url_for('static', filename='scripts.js') }}"></script>
+</body>
+</html>

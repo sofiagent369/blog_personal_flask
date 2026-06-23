@@ -21,3 +21,7 @@
 [2026-06-24 00:26:35] [IN_PROGRESS] task_004: Implementar rutas REST API
 [2026-06-24 00:29:46] [COMPLETED] task_004: Implementar rutas REST API
 [2026-06-24 00:29:49] [IN_PROGRESS] task_005: Implementar autenticación de usuarios
+[2026-06-24 00:32:54] [COMPLETED] task_005: Implementar autenticación de usuarios
+[2026-06-24 00:32:57] [IN_PROGRESS] task_006: Crear plantilla base Jinja2
+[2026-06-24 00:33:31] [PENDING] task_006: Crear plantilla base Jinja2
+[2026-06-24 00:33:32] [IN_PROGRESS] task_006: Crear plantilla base Jinja2
